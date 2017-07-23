@@ -1,0 +1,17 @@
+Nume si prenume: 
+	Cazacu Roxana Andreea
+Grupa: 
+	324CC
+Implementare:
+		Am implementat Partea 1 si Partea 2, ambele functionand bine si corect :
+	Partea 1:
+		Pentru functia deviation, am construit o functie genList ce imi genereaza o lista de valori in functie de tipul functiei g ( functia din check-expect :2, x, x*x + 1 sau oricare alta de acest tip ). Apoi am implementat o functie ce calculeaza diferenta in modul a elementelor din doua liste . Functia apply face suma elementelor dintr-o lista, astfel ajung la rezultatul dorit.
+		Pentru functia size, am folosit o functie recursiva de aflare a lungimii unei liste( in cazul nostru, a ast-ului) si functia flatten ce scoate parantezele dintr-o lista.
+
+	Partea 2:
+		Am implementat functia generate folosind o functie ajutatoare randomDOuble astfel incat sa-mi genereze corect un ast cu imagini.
+		Deviation este reimplementat conform cerintei: am adus imaginea mea la dimensiunea SAMPLE-ului cu crop si am calculat apoi distanta euclidiana dintre pixelii a doua imagini.
+		De asemenea, am modificat functiile modify-random si modify ( aceasta fiind apelata din prima ). modify-random pune pe o pozitie random un subarbore generat aleator si in cazul in care acest subarbore nu este de acelasi tip cu elementul de pe pozitia unde doresc inserarea, returnez ast-ul nemodificat.
+		
+		
+		

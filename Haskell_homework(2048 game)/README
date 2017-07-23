@@ -1,0 +1,19 @@
+Nume : Cazacu Roxana Andreea
+Grupa si seria : 324CC
+
+Am facut toate cerintele standard.
+
+Detalii de implementare :
+
+    Functiile score si rows sunt generate implicit de haskell din modul in care e definit tipul Board.    
+
+    Pentru a implementa functia placeRandomCell am apelat la niste functii ajutatoare,
+    si anume find_zeros_matrix care intoarce indecsii celulelor cu valoare 0 dintr-o matrice
+    sub forma (linie, coloana), functia modify_row care modifica o linie la o pozitie data
+    si functia modify_rows care modifica o linie dintr-o matrice la o pozitie data.
+
+    Pentru functia moveLeft am implementat functia ajutatoare mergeLeft care uneste la stanga
+    elementele de pe tabla si calculeaza diferenta de scor, intorcand o pereche de forma (tabla scor).
+
+    Restul functiilor sunt implementate in mare folosind functionale si bazandu-se pe functiile
+    moveLeft sau placeRandom cell.
